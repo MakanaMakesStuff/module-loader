@@ -1,0 +1,22 @@
+{
+  "name": "bartr",
+  "packageManager": "yarn@3.2.1",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "fastify": "^4.5.2",
+    "glob": "^8.0.3",
+    "mysql2": "^2.3.3",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.0",
+    "typeorm": "^0.3.7",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.2.0",
+    "@types/node": "^18.7.8"
+  }
+}
