@@ -24,7 +24,7 @@
 
     "lib": ["esnext"]
   },
-  "include": ["*.ts", "./**/*.ts", "server/**/*", "index.ts", "client/**/*"],
+  "include": ["*.ts", "./**/*.ts", "server/**/*"],
   "exclude": ["dist", "node_modules"],
   "ts-node": {
     "require": ["tsconfig-paths/register"],
